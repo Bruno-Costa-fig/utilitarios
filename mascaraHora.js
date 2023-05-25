@@ -12,5 +12,5 @@ function MascaraHora(hora) {
   const horaVal = horaPadrao.substring(0, 2)
   const minVal = horaPadrao.substring(2)
 
-      document.getElementById("nmHoraCirurgia").value = `${horaVal}:${minVal}`;
-  }
+  document.getElementById("nmHoraCirurgia").value = `${horaVal}:${minVal}`;
+}
