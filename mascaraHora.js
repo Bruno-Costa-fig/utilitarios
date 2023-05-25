@@ -1,7 +1,7 @@
 //adiciona mascara a Hora
 function MascaraHora(hora) {
-  const value = hora.value
-  value.replace(":", "")
+  let value = hora.value
+  value = value.replace(":", "")
 
   let horaPadrao = value.padStart(2, '0');
 
