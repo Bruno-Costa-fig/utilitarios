@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.root,
+#root,
+#docs-root {
+  --primary: #16DB65;
+  --secondary: #058C42;
+  --dark-green: #04471C;
+  --black: #020202;
+  --white: #F0F8F3;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-bold: 700;
+  --spacing-1: 2px;
+  --spacing-2: 4px;
+  --spacing-3: 8px;
+  --spacing-4: 16px;
+  --spacing-5: 24px;
+  --spacing-6: 32px;
+  --spacing-7: 40px;
+  --spacing-8: 48px;
+  --spacing-9: 56px;
+  --spacing-10: 64px;
+  --border-radius-1: 10px;
+  --border-radius-2: 40px;
+  --border-radius-3: 50px;
+}
+
+html,
+body,
+div,
+header,
+main,
+footer,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  font-family: sans-serif;
+  background-color: var(--white);
+  font-family: 'Inter', sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: var(--font-bold);
+}
+
+h1 {
+  font-size: 3.5em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2.5em;
+}
+
+h4 {
+  font-size: 2em;
+}
+
+h5 {
+  font-size: 1.5em;
+}
+
+h6 {
+  font-size: 1em;
+}
